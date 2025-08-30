@@ -1,0 +1,8 @@
+// Simple Add to Cart functionality
+let cart = [];
+
+function addToCart(item) {
+  cart.push(item);
+  alert(item + " added to cart! 🛒");
+  console.log(cart);
+}
