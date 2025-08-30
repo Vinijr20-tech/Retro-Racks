@@ -1,0 +1,147 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Featured Products */
+.featured-products,
+.product-list {
+    margin-bottom: 2rem;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.product-grid .product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+}
+
+.product-grid .product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.product-grid .product h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-grid .product p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.product-grid .product a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Product Detail */
+.product-detail {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.product-detail img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.product-detail .price {
+    font-size: 1.5rem;
+    color: #e60000;
+    margin-bottom: 1rem;
+}
+
+.product-detail .description {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.product-detail button {
+    background-color: #e60000;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product-detail button:hover {
+    background-color: #cc0000;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
